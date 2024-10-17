@@ -1,0 +1,81 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+
+body {
+  background-color: #000;
+  margin: 0;
+  padding: 0;
+  font-family: "Montserrat", sans-serif;
+  position: relative;
+  padding-bottom: 100px;
+}
+
+ul {
+  height: 25px;
+  width: 95%; /*Largura*/
+  display: flex; /*Item fica um do lado do outro*/
+  justify-content: space-between;
+  list-style-type: none;
+  position: fixed;
+}
+
+.img-topo {
+  height: 25px; /*Altura*/
+}
+
+video {
+  width: 100vw; /*Largura*/
+  min-height: 80vh; /*Altura*/
+}
+
+.capa {
+  position: absolute;
+  bottom: 25%; /* top = cima, botton = baixo, left = esquerda, right = direita*/
+  left: 5%;
+  width: 35%;
+  z-index: 3;
+}
+.capa-titulo {
+  color: white;
+  font-size: 80px; /* Tamanho da fonte*/
+  margin-top: 5px;
+  font-weight: bold; /* Grossura da font bold = negrito em inglês*/
+}
+
+.capa-descricao {
+  color: white;
+  font-size: 20px;
+  margin-bottom: 20px;
+}
+
+.link-assistir {
+  background-color: white;
+  color: black;
+  padding: 10px 20px;
+  border-radius: 4px;
+  cursor: pointer; /* Mãosinha */
+}
+
+.link-info {
+  background-color: rgba(255, 255, 255, 0.35);
+  color: black;
+  padding: 10px 20px;
+  border-radius: 4px;
+  cursor: pointer; /* Mãosinha */
+}
+
+.imagem-carrossel {
+  height: 180px;
+}
+
+#carouselExampleControls {
+  background-color: transparent;
+  position: absolute;
+  bottom: 10px;
+  left: 50px;
+}
+
+.titulo-carrossel {
+  color: white;
+  font-size: 30px;
+  margin-bottom: 10px;
+}
