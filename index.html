@@ -8,8 +8,12 @@
       crossorigin="anonymous"
     />
     <meta charset="UTF-8" />
+    <!-- Padrão de caracter -->
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Devclub - Netflix</title>
+    <!-- Compatível com celulares / computadores -->
+    <link rel="stylesheet" href="style.css" />
+    <title>DevClub - Netflix</title>
+    <!-- Título do Site -->
   </head>
   <body>
     <ul>
@@ -26,19 +30,29 @@
       <h1 class="capa-titulo">Stranger Things</h1>
       <p class="capa-descricao">
         Stranger Things é uma série de ficção científica criada pelos irmão
-        Duffer para a Netflix. situada na cidade ficcional de Hawkins. Indiana, a trama começa no anode 1983 com o desaparecimento do garoto Will.
+        Duffer para a Netflix. situada na cidade ficcional de Hawkins. Indiana,
+        a trama começa no anode 1983 com o desaparecimento do garoto Will.
       </p>
-      <a class="link-assistir" href="">Assistir</a>
+      <a class="link-assistir">Assistir</a>
       <!-- Link -->
-      <a class="link-info" href="">Mais Informações</a>
+      <a class="link-info">Mais Informações</a>
     </div>
-    <video src="src/video/stranger-things.mp4" autoplay muted loop></video>
-    
-    
+    <video
+      src="src/video/stranger-things.mp4"
+      autoplay
+      muted
+      loop
+      class="video"
+    ></video>
+    <button class="botao-som">&#128264;</button>
 
     <!-- Abaixo é o carrosel-->
 
-    <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+    <div
+      id="carouselExampleControls"
+      class="carousel slide"
+      data-ride="carousel"
+    >
       <h2 class="titulo-carrossel">Princiapais Filmes e Séries</h2>
       <div class="carousel-inner">
         <div class="carousel-item active">
@@ -49,26 +63,48 @@
         </div>
 
         <div class="carousel-item">
-          <img src="src/img/jaula.jpg" class="imagem-carrossel" alt="">
-          <img src="src/img/lift.jpg" class="imagem-carrossel" alt="">
-          <img src="src/img/moonfall.jpg" class="imagem-carrossel" alt="">
-          <img src="src/img/equalizer.jpg" class="imagem-carrossel" alt="">
+          <img src="src/img/jaula.jpg" class="imagem-carrossel" alt="" />
+          <img src="src/img/lift.jpg" class="imagem-carrossel" alt="" />
+          <img src="src/img/moonfall.jpg" class="imagem-carrossel" alt="" />
+          <img src="src/img/equalizer.jpg" class="imagem-carrossel" alt="" />
         </div>
-
       </div>
-      <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+      <a
+        class="carousel-control-prev"
+        href="#carouselExampleControls"
+        role="button"
+        data-slide="prev"
+      >
         <span class="carousel-control-prev-icon" aria-hidden="true"></span>
         <span class="sr-only">Anterior</span>
       </a>
-      <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+      <a
+        class="carousel-control-next"
+        href="#carouselExampleControls"
+        role="button"
+        data-slide="next"
+      >
         <span class="carousel-control-next-icon" aria-hidden="true"></span>
         <span class="sr-only">Próximo</span>
       </a>
     </div>
 
+    <div class="modal">
+      <div class="modal-conteudo">
+        <h2>Stranger Things</h2>
+        <p>
+          Stranger Things é uma série de ficção científica criada pelos irmão
+          Duffer para a Netflix. situada na cidade ficcional de Hawkins.
+          Indiana, a trama começa no anode 1983 com o desaparecimento do garoto
+          Will.
+        </p>
+        <p>Genero: <strong>Ação</strong></p>
+        <p>Ano de Lançamento: <strong>2015</strong></p>
+      </div>
+    </div>
+
     <!-- Acima é o carrosel-->
 
-    <link rel="stylesheet" href="style.css" />
     <script
       src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
       integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
@@ -84,5 +120,6 @@
       integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
       crossorigin="anonymous"
     ></script>
+    <script src="script.js"></script>
   </body>
 </html>

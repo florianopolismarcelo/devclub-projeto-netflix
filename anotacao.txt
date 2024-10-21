@@ -1,0 +1,13 @@
+01 - Função é um pedacinho de código que só execulta quando é chamado 
+
+let projeto = "Hoje 21/10/2024 às 06:20hrs estou finalizando projeto NETFLIX"
+function mostrarAlerta() {
+  alert(projeto)
+}
+mostrarAlerta()
+
+02 - Quando o botão for clicado chama a função ligar som 
+
+- document é igual a HTML
+- querySelector seleciona ou pega um item do HTML
+- addEventListener fica ouvindo quando algo acontece tipo clicou no botão então faça algo
