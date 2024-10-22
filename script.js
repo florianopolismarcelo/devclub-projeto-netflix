@@ -33,9 +33,9 @@ function tocarAudio() {
 }
 
 
+// Abaixo: é uma  forma de fazer o código do TUNDUM acima.
 
 /*
-// Uma outra forma de fazer o código do TUNDUM acima
 
 const audioOutraFormaDeFazer = document.querySelector(".audio");
 window.addEventListener("load", () => {
@@ -43,10 +43,9 @@ window.addEventListener("load", () => {
 });
 */
 
-
 /*
-// Abaixo: é uma  forma de fazer o código do TUNDUM acima
 
+// Dica de um colega abaixo também uma outra forma de fazer o código do TUNDUM acima.
 
 e tem como fazer ele sem precisar colocar o caminho do Audio no HTML
 voce so cria uma variavel ai no JS
@@ -54,7 +53,7 @@ declara a musica
 
 const musica = new Audio('./src/audio/tudum-netflix-sound.mp3')
 
-e faz a função para ela tocar com botão ou sem
+// e faz a função para ela tocar com botão ou sem
 
 
 musicaFocoInput.addEventListener('change', ()=> {
@@ -65,7 +64,11 @@ musicaFocoInput.addEventListener('change', ()=> {
   }
 })
 
-nesse meu caso estou usando aqueles botoes de mover para o lado
+// nesse meu caso estou usando aqueles botoes de mover para o lado
+
+// E sem o botão?
+
+window.addEventListener("load", () => document.querySelector(".audio").play());
 
 */
 
